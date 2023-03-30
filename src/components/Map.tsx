@@ -689,8 +689,9 @@ export function Map({ dcsMap }: { dcsMap: DCSMap }) {
         //cssFilter: "grayscale(0.5) brightness(0.4)",
         urlTemplate:
           //"https://gac-geo.googlecnapps.cn/maps/vt/lyrs=s&hl=zh-CN&gl=cn&x={x}&y={y}&z={z}",
-          "https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png",
+          //"https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png",
           //"https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+          "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
         subdomains: ["a", "b", "c", "d"],
         maxCacheSize: 2048,
         hitDetect: false,
