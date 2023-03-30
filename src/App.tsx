@@ -136,13 +136,13 @@ function ServerContainer({ serverName }: { serverName: string }) {
     dcsMap = Syria;
   } else if (refLat >= 20 && refLat <= 33 && refLng >= 46 && refLng <= 64) {
     dcsMap = PersianGulf;
-  } else if (refLat >= 9 && refLat <= 23 && refLng >= 136 && refLng <= 153) {
+  } else if (refLat >= 7 && refLat <= 23 && refLng >= 136 && refLng <= 153) {
     dcsMap = Marianas;
   } else if (refLat >= -59 && refLat <= -45 && refLng >= -88 && refLng <= -38) {
     dcsMap = Falklands;
   } else if (refLat >= 45 && refLat <= 52 && refLng >= -6 && refLng <= 3) {
     dcsMap = Normandy;
-  } else if (refLat >= 32 && refLat <= 40 && refLng >= -121 && refLng <= -112) {
+  } else if (refLat >= 20 && refLat <= 40 && refLng >= -121 && refLng <= -112) {
     dcsMap = Nevada;
   } else if (refLat >= 46 && refLat <= 52 && refLng >= -4 && refLng <= 4) {
     dcsMap = TheChannel;

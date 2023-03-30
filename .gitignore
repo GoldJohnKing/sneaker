@@ -13,7 +13,9 @@ yarn-error.log*
 /scratch.txt
 /config.json
 /sneaker.exe
+/bin
 /sneaker-server
 /state.json
 *.bak
 *.exe
+cmd/sneaker-server/resource.syso
