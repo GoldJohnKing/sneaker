@@ -695,6 +695,7 @@ export function Map({ dcsMap }: { dcsMap: DCSMap }) {
         subdomains: ["a", "b", "c", "d"],
         maxCacheSize: 2048,
         hitDetect: false,
+        cssFilter: "sepia(50%) hue-rotate(45deg) brightness(75%)",
       }),
       layers: [
         new maptalks.VectorLayer('vectorCN', polygonCN, {
