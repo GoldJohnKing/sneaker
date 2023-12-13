@@ -687,7 +687,7 @@ export function Map({ dcsMap }: { dcsMap: DCSMap }) {
       attribution: null,
       baseLayer: new maptalks.TileLayer("base", {
         //opacity : 0.3,
-        //cssFilter: "grayscale(0.5) brightness(0.4)",
+        //cssFilter: "grayscale(0.5) brightness(0.4) sepia(50%) hue-rotate(45deg)",
         urlTemplate:
           //"https://gac-geo.googlecnapps.cn/maps/vt/lyrs=s&hl=zh-CN&gl=cn&x={x}&y={y}&z={z}",
           //"https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png",
@@ -695,8 +695,7 @@ export function Map({ dcsMap }: { dcsMap: DCSMap }) {
           "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
         subdomains: ["a", "b", "c", "d"],
         maxCacheSize: 2048,
-        hitDetect: false,
-        cssFilter: "sepia(50%) hue-rotate(45deg) brightness(75%)",
+        cssFilter: "sepia(25%) grayscale(75%) brightness(75%)",
       }),
       layers: [
         new maptalks.VectorLayer('vectorCN', polygonCN, {
